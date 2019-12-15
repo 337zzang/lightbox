@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>right_box</title>
+  </head>
+  <body>
+    <header>
+      <h1>light box</h1>
+      <img src="images/img01.jpg" class="thumbs" width="100" alt="1" />
+      <img src="images/img02.jpg" class="thumbs" width="100" alt="2" />
+      <img src="images/img03.jpg" class="thumbs" width="100" alt="3" />
+    </header>
+
+    <div id="block"></div>
+
+    <div id="lightbox">
+      <h1>집에서 사라진 곰을 찾아서</h1>
+      <p class="description"></p>
+      <figure>
+        <img src="images/img01.jpg" class="images" alt="1" />
+        <img src="images/img02.jpg" class="images" alt="2" />
+        <img src="images/img03.jpg" class="images" alt="" />
+      </figure>
+      <div class="indicator">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+      </div>
+      <div class="btnClose">X</div>
+    </div>
+    <script src="src/main.js"></script>
+  </body>
+</html>
